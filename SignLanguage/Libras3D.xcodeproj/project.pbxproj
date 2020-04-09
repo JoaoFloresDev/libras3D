@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C401F2D824003029004AC20E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401F2D724003029004AC20E /* AppDelegate.swift */; };
+		C401F2DA24003029004AC20E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401F2D924003029004AC20E /* SceneDelegate.swift */; };
+		C401F2DC24003029004AC20E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401F2DB24003029004AC20E /* ViewController.swift */; };
+		C401F2DF24003029004AC20E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C401F2DD24003029004AC20E /* Main.storyboard */; };
+		C401F2E224003029004AC20E /* SignLanguage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C401F2E024003029004AC20E /* SignLanguage.xcdatamodeld */; };
+		C401F2E42400302B004AC20E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C401F2E32400302B004AC20E /* Assets.xcassets */; };
+		C401F2E72400302B004AC20E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C401F2E52400302B004AC20E /* LaunchScreen.storyboard */; };
+		C401F2F22400302C004AC20E /* SignLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401F2F12400302C004AC20E /* SignLanguageTests.swift */; };
+		C401F2FD2400302C004AC20E /* SignLanguageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401F2FC2400302C004AC20E /* SignLanguageUITests.swift */; };
+		C42F61E9240FFDFC0006A9E3 /* I-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C42F61E8240FFDFC0006A9E3 /* I-Hand.scn */; };
+		C42F61EB241002060006A9E3 /* L-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C42F61EA241002050006A9E3 /* L-Hand.scn */; };
+		C42F61F724103F310006A9E3 /* M-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C42F61F624103F310006A9E3 /* M-Hand.scn */; };
+		C42F61FB241152600006A9E3 /* HAND_Low_C.png in Resources */ = {isa = PBXBuildFile; fileRef = C42F61FA2411525F0006A9E3 /* HAND_Low_C.png */; };
+		C48DFA4F2408180D00E75EC2 /* A-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C48DFA4E2408180D00E75EC2 /* A-Hand.scn */; };
+		C48DFA572408221000E75EC2 /* B-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C48DFA562408221000E75EC2 /* B-Hand.scn */; };
+		C48DFA5A24082CA000E75EC2 /* C-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C48DFA5924082CA000E75EC2 /* C-Hand.scn */; };
+		C48DFA5C240837F200E75EC2 /* D-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C48DFA5B240837F200E75EC2 /* D-Hand.scn */; };
+		C48DFA5E24083FC200E75EC2 /* E-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C48DFA5D24083FC200E75EC2 /* E-Hand.scn */; };
+		C48DFA602408569B00E75EC2 /* F-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C48DFA5F2408569B00E75EC2 /* F-Hand.scn */; };
+		C48DFA6624097B0C00E75EC2 /* G-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C48DFA6524097B0C00E75EC2 /* G-Hand.scn */; };
+		C48DFA69240993ED00E75EC2 /* H-Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C48DFA68240993ED00E75EC2 /* H-Hand.scn */; };
+		C4DCAB7F24080C9900EA4F4E /* --Hand.scn in Resources */ = {isa = PBXBuildFile; fileRef = C4DCAB7E24080C9900EA4F4E /* --Hand.scn */; };
+		C4DCAB872408113500EA4F4E /* HAND_Low_S.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DCAB842408113400EA4F4E /* HAND_Low_S.png */; };
+		C4DCAB882408113500EA4F4E /* HAND_Low_N.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DCAB852408113500EA4F4E /* HAND_Low_N.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C401F2EE2400302C004AC20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C401F2CC24003029004AC20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C401F2D324003029004AC20E;
+			remoteInfo = SignLanguage;
+		};
+		C401F2F92400302C004AC20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C401F2CC24003029004AC20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C401F2D324003029004AC20E;
+			remoteInfo = SignLanguage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C401F2D424003029004AC20E /* Libras3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Libras3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401F2D724003029004AC20E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C401F2D924003029004AC20E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C401F2DB24003029004AC20E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C401F2DE24003029004AC20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C401F2E124003029004AC20E /* SignLanguage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SignLanguage.xcdatamodel; sourceTree = "<group>"; };
+		C401F2E32400302B004AC20E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C401F2E62400302B004AC20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C401F2E82400302B004AC20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C401F2ED2400302C004AC20E /* Libras3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Libras3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401F2F12400302C004AC20E /* SignLanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignLanguageTests.swift; sourceTree = "<group>"; };
+		C401F2F32400302C004AC20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C401F2F82400302C004AC20E /* Libras3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Libras3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401F2FC2400302C004AC20E /* SignLanguageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignLanguageUITests.swift; sourceTree = "<group>"; };
+		C401F2FE2400302C004AC20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42F61E8240FFDFC0006A9E3 /* I-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "I-Hand.scn"; sourceTree = "<group>"; };
+		C42F61EA241002050006A9E3 /* L-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "L-Hand.scn"; sourceTree = "<group>"; };
+		C42F61F624103F310006A9E3 /* M-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "M-Hand.scn"; sourceTree = "<group>"; };
+		C42F61FA2411525F0006A9E3 /* HAND_Low_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HAND_Low_C.png; sourceTree = "<group>"; };
+		C48DFA4E2408180D00E75EC2 /* A-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "A-Hand.scn"; sourceTree = "<group>"; };
+		C48DFA562408221000E75EC2 /* B-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "B-Hand.scn"; sourceTree = "<group>"; };
+		C48DFA5924082CA000E75EC2 /* C-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "C-Hand.scn"; sourceTree = "<group>"; };
+		C48DFA5B240837F200E75EC2 /* D-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "D-Hand.scn"; sourceTree = "<group>"; };
+		C48DFA5D24083FC200E75EC2 /* E-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "E-Hand.scn"; sourceTree = "<group>"; };
+		C48DFA5F2408569B00E75EC2 /* F-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "F-Hand.scn"; sourceTree = "<group>"; };
+		C48DFA6524097B0C00E75EC2 /* G-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "G-Hand.scn"; sourceTree = "<group>"; };
+		C48DFA68240993ED00E75EC2 /* H-Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "H-Hand.scn"; sourceTree = "<group>"; };
+		C4DCAB7E24080C9900EA4F4E /* --Hand.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "--Hand.scn"; sourceTree = "<group>"; };
+		C4DCAB842408113400EA4F4E /* HAND_Low_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HAND_Low_S.png; sourceTree = "<group>"; };
+		C4DCAB852408113500EA4F4E /* HAND_Low_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HAND_Low_N.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C401F2D124003029004AC20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401F2EA2400302C004AC20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401F2F52400302C004AC20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C401F2CB24003029004AC20E = {
+			isa = PBXGroup;
+			children = (
+				C401F2D624003029004AC20E /* SignLanguage */,
+				C401F2F02400302C004AC20E /* SignLanguageTests */,
+				C401F2FB2400302C004AC20E /* SignLanguageUITests */,
+				C401F2D524003029004AC20E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C401F2D524003029004AC20E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C401F2D424003029004AC20E /* Libras3D.app */,
+				C401F2ED2400302C004AC20E /* Libras3DTests.xctest */,
+				C401F2F82400302C004AC20E /* Libras3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C401F2D624003029004AC20E /* SignLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				C4DCAB7E24080C9900EA4F4E /* --Hand.scn */,
+				C48DFA4E2408180D00E75EC2 /* A-Hand.scn */,
+				C48DFA562408221000E75EC2 /* B-Hand.scn */,
+				C48DFA5924082CA000E75EC2 /* C-Hand.scn */,
+				C48DFA5B240837F200E75EC2 /* D-Hand.scn */,
+				C48DFA5D24083FC200E75EC2 /* E-Hand.scn */,
+				C48DFA5F2408569B00E75EC2 /* F-Hand.scn */,
+				C48DFA6524097B0C00E75EC2 /* G-Hand.scn */,
+				C48DFA68240993ED00E75EC2 /* H-Hand.scn */,
+				C42F61E8240FFDFC0006A9E3 /* I-Hand.scn */,
+				C42F61EA241002050006A9E3 /* L-Hand.scn */,
+				C42F61F624103F310006A9E3 /* M-Hand.scn */,
+				C42F61FA2411525F0006A9E3 /* HAND_Low_C.png */,
+				C4DCAB852408113500EA4F4E /* HAND_Low_N.png */,
+				C4DCAB842408113400EA4F4E /* HAND_Low_S.png */,
+				C401F2D724003029004AC20E /* AppDelegate.swift */,
+				C401F2D924003029004AC20E /* SceneDelegate.swift */,
+				C401F2DB24003029004AC20E /* ViewController.swift */,
+				C401F2DD24003029004AC20E /* Main.storyboard */,
+				C401F2E32400302B004AC20E /* Assets.xcassets */,
+				C401F2E52400302B004AC20E /* LaunchScreen.storyboard */,
+				C401F2E82400302B004AC20E /* Info.plist */,
+				C401F2E024003029004AC20E /* SignLanguage.xcdatamodeld */,
+			);
+			path = SignLanguage;
+			sourceTree = "<group>";
+		};
+		C401F2F02400302C004AC20E /* SignLanguageTests */ = {
+			isa = PBXGroup;
+			children = (
+				C401F2F12400302C004AC20E /* SignLanguageTests.swift */,
+				C401F2F32400302C004AC20E /* Info.plist */,
+			);
+			path = SignLanguageTests;
+			sourceTree = "<group>";
+		};
+		C401F2FB2400302C004AC20E /* SignLanguageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C401F2FC2400302C004AC20E /* SignLanguageUITests.swift */,
+				C401F2FE2400302C004AC20E /* Info.plist */,
+			);
+			path = SignLanguageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C401F2D324003029004AC20E /* Libras3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C401F3012400302C004AC20E /* Build configuration list for PBXNativeTarget "Libras3D" */;
+			buildPhases = (
+				C401F2D024003029004AC20E /* Sources */,
+				C401F2D124003029004AC20E /* Frameworks */,
+				C401F2D224003029004AC20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Libras3D;
+			productName = SignLanguage;
+			productReference = C401F2D424003029004AC20E /* Libras3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C401F2EC2400302C004AC20E /* Libras3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C401F3042400302C004AC20E /* Build configuration list for PBXNativeTarget "Libras3DTests" */;
+			buildPhases = (
+				C401F2E92400302C004AC20E /* Sources */,
+				C401F2EA2400302C004AC20E /* Frameworks */,
+				C401F2EB2400302C004AC20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C401F2EF2400302C004AC20E /* PBXTargetDependency */,
+			);
+			name = Libras3DTests;
+			productName = SignLanguageTests;
+			productReference = C401F2ED2400302C004AC20E /* Libras3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C401F2F72400302C004AC20E /* Libras3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C401F3072400302C004AC20E /* Build configuration list for PBXNativeTarget "Libras3DUITests" */;
+			buildPhases = (
+				C401F2F42400302C004AC20E /* Sources */,
+				C401F2F52400302C004AC20E /* Frameworks */,
+				C401F2F62400302C004AC20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C401F2FA2400302C004AC20E /* PBXTargetDependency */,
+			);
+			name = Libras3DUITests;
+			productName = SignLanguageUITests;
+			productReference = C401F2F82400302C004AC20E /* Libras3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C401F2CC24003029004AC20E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Joao Flores";
+				TargetAttributes = {
+					C401F2D324003029004AC20E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C401F2EC2400302C004AC20E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C401F2D324003029004AC20E;
+					};
+					C401F2F72400302C004AC20E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C401F2D324003029004AC20E;
+					};
+				};
+			};
+			buildConfigurationList = C401F2CF24003029004AC20E /* Build configuration list for PBXProject "Libras3D" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C401F2CB24003029004AC20E;
+			productRefGroup = C401F2D524003029004AC20E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C401F2D324003029004AC20E /* Libras3D */,
+				C401F2EC2400302C004AC20E /* Libras3DTests */,
+				C401F2F72400302C004AC20E /* Libras3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C401F2D224003029004AC20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48DFA602408569B00E75EC2 /* F-Hand.scn in Resources */,
+				C48DFA4F2408180D00E75EC2 /* A-Hand.scn in Resources */,
+				C401F2E72400302B004AC20E /* LaunchScreen.storyboard in Resources */,
+				C42F61F724103F310006A9E3 /* M-Hand.scn in Resources */,
+				C42F61EB241002060006A9E3 /* L-Hand.scn in Resources */,
+				C4DCAB7F24080C9900EA4F4E /* --Hand.scn in Resources */,
+				C48DFA5A24082CA000E75EC2 /* C-Hand.scn in Resources */,
+				C48DFA572408221000E75EC2 /* B-Hand.scn in Resources */,
+				C4DCAB872408113500EA4F4E /* HAND_Low_S.png in Resources */,
+				C48DFA5E24083FC200E75EC2 /* E-Hand.scn in Resources */,
+				C48DFA6624097B0C00E75EC2 /* G-Hand.scn in Resources */,
+				C48DFA5C240837F200E75EC2 /* D-Hand.scn in Resources */,
+				C42F61FB241152600006A9E3 /* HAND_Low_C.png in Resources */,
+				C401F2E42400302B004AC20E /* Assets.xcassets in Resources */,
+				C4DCAB882408113500EA4F4E /* HAND_Low_N.png in Resources */,
+				C42F61E9240FFDFC0006A9E3 /* I-Hand.scn in Resources */,
+				C401F2DF24003029004AC20E /* Main.storyboard in Resources */,
+				C48DFA69240993ED00E75EC2 /* H-Hand.scn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401F2EB2400302C004AC20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401F2F62400302C004AC20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C401F2D024003029004AC20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C401F2DC24003029004AC20E /* ViewController.swift in Sources */,
+				C401F2D824003029004AC20E /* AppDelegate.swift in Sources */,
+				C401F2E224003029004AC20E /* SignLanguage.xcdatamodeld in Sources */,
+				C401F2DA24003029004AC20E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401F2E92400302C004AC20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C401F2F22400302C004AC20E /* SignLanguageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401F2F42400302C004AC20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C401F2FD2400302C004AC20E /* SignLanguageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C401F2EF2400302C004AC20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C401F2D324003029004AC20E /* Libras3D */;
+			targetProxy = C401F2EE2400302C004AC20E /* PBXContainerItemProxy */;
+		};
+		C401F2FA2400302C004AC20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C401F2D324003029004AC20E /* Libras3D */;
+			targetProxy = C401F2F92400302C004AC20E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C401F2DD24003029004AC20E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C401F2DE24003029004AC20E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C401F2E52400302B004AC20E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C401F2E62400302B004AC20E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C401F2FF2400302C004AC20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C401F3002400302C004AC20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C401F3022400302C004AC20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				INFOPLIST_FILE = SignLanguage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5;
+				PRODUCT_BUNDLE_IDENTIFIER = joaoFlores.SignLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C401F3032400302C004AC20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				INFOPLIST_FILE = SignLanguage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5;
+				PRODUCT_BUNDLE_IDENTIFIER = joaoFlores.SignLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C401F3052400302C004AC20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				INFOPLIST_FILE = SignLanguageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaoFlores.SignLanguageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Libras3D.app/Libras3D";
+			};
+			name = Debug;
+		};
+		C401F3062400302C004AC20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				INFOPLIST_FILE = SignLanguageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaoFlores.SignLanguageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Libras3D.app/Libras3D";
+			};
+			name = Release;
+		};
+		C401F3082400302C004AC20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				INFOPLIST_FILE = SignLanguageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaoFlores.SignLanguageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignLanguage;
+			};
+			name = Debug;
+		};
+		C401F3092400302C004AC20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				INFOPLIST_FILE = SignLanguageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaoFlores.SignLanguageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignLanguage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C401F2CF24003029004AC20E /* Build configuration list for PBXProject "Libras3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C401F2FF2400302C004AC20E /* Debug */,
+				C401F3002400302C004AC20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C401F3012400302C004AC20E /* Build configuration list for PBXNativeTarget "Libras3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C401F3022400302C004AC20E /* Debug */,
+				C401F3032400302C004AC20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C401F3042400302C004AC20E /* Build configuration list for PBXNativeTarget "Libras3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C401F3052400302C004AC20E /* Debug */,
+				C401F3062400302C004AC20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C401F3072400302C004AC20E /* Build configuration list for PBXNativeTarget "Libras3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C401F3082400302C004AC20E /* Debug */,
+				C401F3092400302C004AC20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C401F2E024003029004AC20E /* SignLanguage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C401F2E124003029004AC20E /* SignLanguage.xcdatamodel */,
+			);
+			currentVersion = C401F2E124003029004AC20E /* SignLanguage.xcdatamodel */;
+			path = SignLanguage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C401F2CC24003029004AC20E /* Project object */;
+}

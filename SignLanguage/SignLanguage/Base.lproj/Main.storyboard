@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SignLanguage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TRQ-uu-cH3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arscnView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fw7-k8-NQr">
+                                <rect key="frame" x="0.0" y="768" width="414" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="zEQ-qf-P8I"/>
+                                </constraints>
+                            </view>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aKr-L5-gKG">
+                                <rect key="frame" x="0.0" y="736" width="414" height="160"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="nHP-Z8-gsP"/>
+                                </constraints>
+                            </pickerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xxs-UK-M70">
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="98D-pQ-jgv">
+                                        <rect key="frame" x="41.5" y="309" width="331" height="74"/>
+                                        <color key="backgroundColor" white="0.88032236509999995" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pm-hy-3G0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Toque para iniciar!"/>
+                                        <connections>
+                                            <action selector="initButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dDt-mG-vy1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5pm-hy-3G0" firstAttribute="centerY" secondItem="Xxs-UK-M70" secondAttribute="centerY" id="5MI-Y5-fDl"/>
+                                    <constraint firstItem="5pm-hy-3G0" firstAttribute="centerX" secondItem="Xxs-UK-M70" secondAttribute="centerX" id="Aee-SD-jJc"/>
+                                    <constraint firstItem="98D-pQ-jgv" firstAttribute="width" secondItem="5pm-hy-3G0" secondAttribute="width" multiplier="0.799517" id="EbR-Ip-9Hh"/>
+                                    <constraint firstItem="98D-pQ-jgv" firstAttribute="centerY" secondItem="5pm-hy-3G0" secondAttribute="centerY" id="F49-Rh-Z3x"/>
+                                    <constraint firstItem="5pm-hy-3G0" firstAttribute="height" secondItem="Xxs-UK-M70" secondAttribute="height" id="hye-k0-4pm"/>
+                                    <constraint firstItem="98D-pQ-jgv" firstAttribute="centerX" secondItem="5pm-hy-3G0" secondAttribute="centerX" id="mPk-au-Di3"/>
+                                    <constraint firstItem="5pm-hy-3G0" firstAttribute="width" secondItem="Xxs-UK-M70" secondAttribute="width" id="rge-0V-TV1"/>
+                                    <constraint firstItem="98D-pQ-jgv" firstAttribute="height" secondItem="5pm-hy-3G0" secondAttribute="height" multiplier="0.106936" id="x0K-Lw-y2m"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="TRQ-uu-cH3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0qU-wf-Nu8"/>
+                            <constraint firstItem="fw7-k8-NQr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1yi-xY-8qw"/>
+                            <constraint firstItem="Xxs-UK-M70" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2yW-Hs-pkj"/>
+                            <constraint firstAttribute="bottom" secondItem="TRQ-uu-cH3" secondAttribute="bottom" id="5JI-WO-6d5"/>
+                            <constraint firstItem="fw7-k8-NQr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BME-wN-1dY"/>
+                            <constraint firstItem="Xxs-UK-M70" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Eyu-lF-2tc"/>
+                            <constraint firstAttribute="bottom" secondItem="aKr-L5-gKG" secondAttribute="bottom" id="PrC-NL-ysf"/>
+                            <constraint firstItem="aKr-L5-gKG" firstAttribute="top" secondItem="Xxs-UK-M70" secondAttribute="bottom" id="UJr-c2-XYg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xxs-UK-M70" secondAttribute="trailing" id="ctg-Vf-oKq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TRQ-uu-cH3" secondAttribute="trailing" id="id5-hJ-3rz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aKr-L5-gKG" secondAttribute="trailing" id="nKQ-A5-eoW"/>
+                            <constraint firstAttribute="bottom" secondItem="fw7-k8-NQr" secondAttribute="bottom" id="qdF-vh-R6b"/>
+                            <constraint firstItem="aKr-L5-gKG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sZv-5a-BEm"/>
+                            <constraint firstItem="TRQ-uu-cH3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xhL-pC-8A6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pickerViewAlphabet" destination="aKr-L5-gKG" id="Xtp-FF-QZl"/>
+                        <outlet property="sceneView" destination="TRQ-uu-cH3" id="ZCL-oT-t3I"/>
+                        <outlet property="viewInitButton" destination="Xxs-UK-M70" id="Jrb-u0-YUp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
